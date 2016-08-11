@@ -196,7 +196,7 @@ public class DragonProxy {
             Thread.sleep(2000); //Wait for all clients disconnected
         } catch (Exception e) {
         }
-        System.out.println("Goodbye!");
+        System.out.println("Goodbye!"); //Should only show if it took too long to stop
         System.exit(0);
     }
 }
